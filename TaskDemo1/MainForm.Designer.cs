@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnStart2 = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.lb = new System.Windows.Forms.ListView();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,16 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "操作区域";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(209, 15);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(62, 26);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "开始2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -88,16 +98,6 @@
             this.lb.Size = new System.Drawing.Size(502, 274);
             this.lb.TabIndex = 2;
             this.lb.UseCompatibleStateImageBehavior = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(209, 15);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(62, 26);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "开始2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // MainForm
             // 

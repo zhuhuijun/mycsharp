@@ -95,7 +95,7 @@ namespace ActionDemo1
             }));
             names.ForEach(new Action<string>((s) =>
             {
-                //这个是异步的
+                //这个是异步的线程
                 Task.Run(() =>
                 {
                     Thread.Sleep(1000);
